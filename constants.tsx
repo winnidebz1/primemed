@@ -544,161 +544,161 @@ export const PRODUCTS: Product[] = [
     name: 'TUNING FORK (128HZ, 512HZ)',
     category: 'Others',
     description: 'High-precision medical tuning forks for neurological assessment and auditory testing.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/tuning-fork.jpg'
   },
   {
     id: 'o2',
     name: 'RECHARGEABLE PEN TORCH',
     category: 'Others',
     description: 'Eco-friendly rechargeable diagnostic penlight with consistent beam intensity for clinical exams.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/rechargeable-pen-torch.jpg'
   },
   {
     id: 'o3',
     name: 'PEN TORCH (BATTERY TYPE)',
     category: 'Others',
     description: 'Portable, battery-operated diagnostic penlight for rapid pupil reflexes and physical examinations.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/pen-torch-battery.jpg'
   },
   {
     id: 'o4',
     name: 'LITTMAN STETHOSCOPE CLASSIC III',
     category: 'Others',
     description: 'Industry-standard diagnostic stethoscope featuring high acoustic sensitivity and dual-sided chestpiece.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/littman-classic-3.jpg'
   },
   {
     id: 'o5',
     name: 'LITTMAN STETHOSCOPE CLASSIC IV',
     category: 'Others',
     description: 'Next-generation clinical stethoscope with enhanced acoustics and robust design for professional use.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/littman-classic-4.jpg'
   },
   {
     id: 'o6',
     name: 'RETRACTABLE TAPE MEASURE',
     category: 'Others',
     description: 'Spring-loaded durable measuring tape for accurate patient anthropometric measurements.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/retractable-tape-measure.jpg'
   },
   {
     id: 'o7',
     name: 'NON-RETRACTABLE TAPE MEASURE',
     category: 'Others',
     description: 'Flexible, high-visibility measuring tape ideal for circumferential medical measurements.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/non-retractable-tape-measure.jpg'
   },
   {
     id: 'o8',
     name: 'LONG FLEXIBLE PATELLA HAMMER',
     category: 'Others',
     description: 'Tromner-style neurological hammer with a flexible handle for superior reflex elicitation.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/patella-hammer-flexible.jpg'
   },
   {
     id: 'o9',
     name: 'SHORT METAL PATELLA HAMMER (WITH BRUSH AND PIN)',
     category: 'Others',
     description: 'Multi-functional Buck-style hammer featuring integrated tools for sensory testing.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/patella-hammer-short.jpg'
   },
   {
     id: 'o10',
     name: 'LEEMAN STETHOSCOPE CASE FOR CARDIOLOGY',
     category: 'Others',
     description: 'Premium shock-proof protective case designed specifically for high-end cardiology stethoscopes.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/stethoscope-case-cardiology.jpg'
   },
   {
     id: 'o11',
     name: 'CARDIOLOGY IV STETHOSCOPE',
     category: 'Others',
     description: 'Top-tier cardiology stethoscope designed for the most demanding clinical environments and fine auscultation.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/cardiology-4-stethoscope.jpg'
   },
   {
     id: 'o12',
     name: 'DIGITAL THERMOMETER',
     category: 'Others',
     description: 'Fast and accurate electronic thermometer with easy-read display for clinical temperature monitoring.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/digital-thermometer.jpg'
   },
   {
     id: 'o13',
     name: 'SPHYGMOMANOMETER',
     category: 'Others',
     description: 'Professional grade manual blood pressure monitor for reliable clinical diagnostics.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/sphygmomanometer.jpg'
   },
   {
     id: 'o14',
     name: 'BREAST WATCH',
     category: 'Others',
     description: 'Hygienic silicone fob watch designed for medical professionals working in sterile environments.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/breast-watch.jpg'
   },
   {
     id: 'o15',
     name: 'BLOOD PRESSURE MACHINES',
     category: 'Others',
     description: 'Automatic digital upper-arm blood pressure monitors for precise and rapid patient screening.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/blood-pressure-machine.jpg'
   },
   {
     id: 'o16',
     name: 'SUTURE PADS',
     category: 'Others',
     description: 'High-fidelity multi-layer synthetic skin pads for medical students and surgical training.',
-    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/suture-pads.jpg'
   },
   {
     id: 'o17',
     name: 'HOT WATER BOTTLE',
     category: 'Others',
     description: 'Medical-grade therapeutic heat bottle for targeted pain relief and comfort.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/hot-water-bottle.jpg'
   },
   {
     id: 'o18',
     name: 'LITTMAN CLASSIC II STETHOSCOPE',
     category: 'Others',
     description: 'Proven clinical performance for general diagnosis with high-quality acoustic engineering.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/littman-classic-2.jpg'
   },
   {
     id: 'o19',
     name: 'LITTMAN CLASSIC III STETHOSCOPE',
     category: 'Others',
     description: 'Enhanced version of the Classic II, providing superior clarity and comfort for clinicians.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/littman-classic-3-stethoscope.jpg'
   },
   {
     id: 'o20',
     name: 'CARDIOLOGY IV BELL',
     category: 'Others',
     description: 'Replacement bell component for Cardiology IV stethoscopes, ensuring continued high-frequency performance.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/cardiology-4-bell.jpg'
   },
   {
     id: 'o21',
     name: 'CARDIOLOGY STETHOSCOPE SPARE PARTS (DARK AND GREY)',
     category: 'Others',
     description: 'Official spare kit containing ear tips, diaphragms, and rim assemblies in various finishes.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/cardiology-spare-parts.jpg'
   },
   {
     id: 'o22',
     name: 'DIAPHRAGMS',
     category: 'Others',
     description: 'Replacement tunable diaphragms for maintain acoustic integrity of clinical stethoscopes.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/diaphragms.jpg'
   },
   {
     id: 'o23',
     name: 'EAR TIPS',
     category: 'Others',
     description: 'Soft-sealing stethoscope ear tips providing comfort and acoustic isolation.',
-    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/ear-tips.jpg'
   },
   {
     id: 'o24',

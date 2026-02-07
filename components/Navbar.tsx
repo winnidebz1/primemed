@@ -40,13 +40,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
               <button
                 key={link.name}
                 onClick={() => onNavigate(link.view)}
-                className={`font-medium transition-colors hover:text-brand-red relative py-1 ${isScrolled || currentView !== 'home'
-                    ? currentView === link.view ? 'text-brand-blue font-semibold' : 'text-slate-600'
-                    : currentView === link.view ? 'text-white font-semibold underline underline-offset-8 decoration-brand-red decoration-2' : 'text-slate-100'
+                className={`font-medium transition-colors hover:text-brand-red relative py-1 ${currentView === link.view ? 'text-brand-blue font-semibold' : 'text-slate-600'
                   }`}
               >
                 {link.name}
-                {currentView === link.view && (isScrolled || currentView !== 'home') && (
+                {currentView === link.view && (
                   <span className="absolute bottom-0 left-0 w-full h-0.5 bg-brand-red rounded-full"></span>
                 )}
               </button>
@@ -54,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
           </div>
 
           <div className="md:hidden">
-            <button className={`${isScrolled || currentView !== 'home' ? 'text-brand-blue' : 'text-white'}`}>
+            <button className="text-brand-blue">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
             </button>
           </div>

@@ -20,56 +20,56 @@ export const PRODUCTS: Product[] = [
     name: 'HYDRAULIC THEATRE BED',
     category: 'Theatre Setups',
     description: 'Heavy-duty hydraulic operating table with multi-positional adjustments for various surgical procedures.',
-    imageUrl: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Hydraulic-Theatre bed.jpg'
   },
   {
     id: 't2',
     name: 'EMERGENCY TRANSFER TROLLEY',
     category: 'Theatre Setups',
     description: 'High-mobility patient transfer stretcher with adjustable height and side rails for critical care.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Emergency transfer trolley.jpg'
   },
   {
     id: 't3',
     name: 'DIATHERMY MACHINE',
     category: 'Theatre Setups',
     description: 'Advanced electrosurgical unit with monopolar and bipolar modes for precise tissue cutting and coagulation.',
-    imageUrl: 'https://images.unsplash.com/photo-1579152276506-0414b6205edb?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Diathermy machine.jpg'
   },
   {
     id: 't4',
     name: 'THEATRE LIGHT (CEILING TYPE)',
     category: 'Theatre Setups',
     description: 'Shadowless surgical lighting system mounted to ceiling with adjustable intensity and focus.',
-    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Theatre light(ceiling type).jpg'
   },
   {
     id: 't5',
     name: 'THEATRE LIGHT (STANDING TYPE)',
     category: 'Theatre Setups',
     description: 'Mobile surgical floor lamp with flexible arm and high-output LED for focal illumination.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Theatre light(Standing type).jpg'
   },
   {
     id: 't6',
     name: 'THEATRE LIGHT (RECHARGEABLE)',
     category: 'Theatre Setups',
     description: 'Portable emergency surgical light with high-capacity internal battery for uninterrupted operation.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Rechargeable theatre light.jpg'
   },
   {
     id: 't7',
     name: 'ANESTHESIA MACHINE (DOUBLE VAPORISER)',
     category: 'Theatre Setups',
     description: 'Precision anesthesia delivery system with dual vaporizers and integrated ventilator support.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Anaesthesia machine(Double vaporiser).jpg'
   },
   {
     id: 't8',
     name: 'PATIENT MONITOR (WITH ADULT AND PEDIATRIC ACCESSORIES)',
     category: 'Theatre Setups',
     description: 'High-resolution multi-parameter monitor including probes and cuffs for all age groups.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Patient monitor(Adult and Peadiatric accessories).jpg'
   },
   {
     id: 't9',
@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
     name: 'SUCTION MACHINE',
     category: 'Theatre Setups',
     description: 'High-vacuum, high-flow medical aspirator for surgical fluids and secretions.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/Suction Machine.jpg'
   },
   // Laboratory Setups
   {
@@ -177,7 +177,7 @@ export const PRODUCTS: Product[] = [
     name: 'DENTAL UNIT (INCLUDES ORAL CAMERA MONITOR, AIR COMPRESSOR, ETC)',
     category: 'Dental Setups',
     description: 'All-in-one professional dental station featuring an integrated oral camera system, high-definition monitor, and a powerful, quiet air compressor for seamless procedures.',
-    imageUrl: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Dental setup/Dental setup.jpeg'
   },
   // General Medical Machines
   {
@@ -185,224 +185,218 @@ export const PRODUCTS: Product[] = [
     name: 'AMBUBAG SILICON (NEONATE, PEDIATRIC, ADULT)',
     category: 'General Medical Machines and Equipment',
     description: 'Manual resuscitator for respiratory support across all age groups including neonates, pediatrics, and adults.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093458391-9f42e68fe4f7?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Abmubag silicon.jpg'
   },
   {
     id: 'g2',
     name: 'STAINLESS STEEL BABY COT (TYPE A)',
     category: 'General Medical Machines and Equipment',
     description: 'Durable medical-grade stainless steel crib designed for safety and longevity in neonatal departments.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Baby cot stainless steel (Type A).jpg'
   },
   {
     id: 'g3',
     name: 'BABY COT (TYPE C-ABS)',
     category: 'General Medical Machines and Equipment',
     description: 'Modern infant bed featuring ABS panels for easy cleaning and adjustable features for clinical convenience.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Babycot (type C, ABS).jpeg'
   },
   {
     id: 'g4',
     name: 'TUBE PHOTOTHERAPY MACHINE',
     category: 'General Medical Machines and Equipment',
     description: 'Intensive phototherapy unit for efficient treatment of neonatal jaundice using advanced light therapy.',
-    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Tube phototheraphy machine.PNG'
   },
   {
     id: 'g5',
     name: 'MAYO\'S TROLLEY',
     category: 'General Medical Machines and Equipment',
     description: 'Adjustable height surgical instrument stand with a high-grade stainless steel tray.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093458391-9f42e68fe4f7?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Mayo\'s trolley.jpg'
   },
   {
     id: 'g6',
     name: 'EXAMINATION LAMP (ADJUSTABLE BRIGHTNESS BUTTON)',
     category: 'General Medical Machines and Equipment',
     description: 'Medical-grade LED examination light with intuitive brightness control for precise diagnostics.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Examination lamp(adjustable brightness buton).jpg'
   },
   {
     id: 'g7',
     name: 'DIAGNOSTIC OTOSCOPE',
     category: 'General Medical Machines and Equipment',
     description: 'High-intensity diagnostic tool for clear visualization during ear and auditory canal examinations.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Diagnostic outoscope.PNG'
   },
   {
     id: 'g8',
     name: 'COMMODE WHEELCHAIR (LONG BACK)',
     category: 'General Medical Machines and Equipment',
     description: 'Ergonomic wheelchair with a high backrest and integrated commode for patient convenience and support.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Commode wheelchair(long back).jpeg'
   },
   {
     id: 'g9',
     name: 'STANDARD WHEELCHAIR',
     category: 'General Medical Machines and Equipment',
     description: 'Heavy-duty mobility solution with durable frame construction and comfortable patient seating.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Standard wheelchair.PNG'
   },
   {
     id: 'g10',
     name: 'ADULT MECHANICAL SCALE (SEPARATE FOOT)',
     category: 'General Medical Machines and Equipment',
     description: 'Precision mechanical weighing scale with a wide platform and separate foot base for stability.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Adult mechanical scale with separate foot.jpeg'
   },
   {
     id: 'g11',
     name: 'ANTIDECUBITUS AIR MATRESS',
     category: 'General Medical Machines and Equipment',
     description: 'Medical pressure-relief mattress system designed for the prevention and treatment of bedsores.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Antidecubitus air matress.PNG'
   },
-  {
-    id: 'g12',
-    name: 'ADULT MECHANICAL SCALE (JOINT FOOT)',
-    category: 'General Medical Machines and Equipment',
-    description: 'Accurate analog floor scale with integrated platform for routine clinical weight monitoring.',
-    imageUrl: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800'
-  },
+
   {
     id: 'g13',
     name: 'INFANT HANGING SCALE',
     category: 'General Medical Machines and Equipment',
     description: 'Reliable and portable mechanical scale for pediatric clinics and field health monitoring.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Infant hanging scale.PNG'
   },
   {
     id: 'g14',
     name: 'SCALE WITH HEIGHT (SMALL)',
     category: 'General Medical Machines and Equipment',
     description: 'Compact weighing station with an integrated height measuring rod for comprehensive clinical assessment.',
-    imageUrl: 'https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Scale with height(small).PNG'
   },
   {
     id: 'g15',
     name: 'WARD SCREEN (4 FOLD + 4 LEGS)',
     category: 'General Medical Machines and Equipment',
     description: 'Portable privacy divider with durable frames and stable casters for hospital ward use.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Ward screen(4 fold with 4 legs).PNG'
   },
   {
     id: 'g16',
     name: 'FINGER PULSE OXIMETER',
     category: 'General Medical Machines and Equipment',
     description: 'Quick and accurate monitoring of blood oxygen saturation and pulse rate via fingertips.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Finger pulse oximeter.PNG'
   },
   {
     id: 'g17',
     name: 'HANDHELD PULSE OXIMETER',
     category: 'General Medical Machines and Equipment',
     description: 'Professional-grade portable monitor for continuous and spot-check SpO2 tracking.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Handheld pulse oximeter.PNG'
   },
   {
     id: 'g18',
     name: 'PEDIATRIC RECHARGEABLE PULSE OXIMETERS',
     category: 'General Medical Machines and Equipment',
     description: 'Specialized oxygen monitor for children featuring a rechargeable battery and ergonomic sensor.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Pediatric pulse oximeter.PNG'
   },
   {
     id: 'g19',
     name: 'GUN THERMOMETERS',
     category: 'General Medical Machines and Equipment',
     description: 'High-speed infrared non-contact thermometer for hygienic and rapid temperature screening.',
-    imageUrl: 'https://images.unsplash.com/photo-1583912267550-d44d7a12982c?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Gun thermometer.PNG'
   },
   {
     id: 'g20',
     name: 'PATIENT MONITOR STAND',
     category: 'General Medical Machines and Equipment',
     description: 'Mobile rolling stand with adjustable height and storage basket for vital sign monitors.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Patient monitor stand.PNG'
   },
   {
     id: 'g21',
     name: 'GAUZE DRUM (26X19CM, 30X21CM)',
     category: 'General Medical Machines and Equipment',
     description: 'Sterilization containers for medical dressings, made from high-quality medical grade stainless steel.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Gauze drum.PNG'
   },
   {
     id: 'g22',
     name: 'ROOM THERMOMETER',
     category: 'General Medical Machines and Equipment',
     description: 'Precision environmental monitor for maintaining optimal clinical conditions in hospitals and labs.',
-    imageUrl: 'https://images.unsplash.com/photo-1579152276506-0414b6205edb?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Room thermometer.PNG'
   },
   {
     id: 'g23',
     name: 'FRIDGE THERMOMETER',
     category: 'General Medical Machines and Equipment',
     description: 'Critical monitor for temperature-sensitive medications and biological reagents in medical fridges.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Fridge thermometer.PNG'
   },
   {
     id: 'g24',
     name: 'ANEROID SPHYGMOMANOMETER',
     category: 'General Medical Machines and Equipment',
     description: 'Reliable manual blood pressure monitor with a high-accuracy gauge and comfortable cuff.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Anerioid shygmomanometer.PNG'
   },
   {
     id: 'g25',
     name: 'INFUSION STAND WITH BASIN',
     category: 'General Medical Machines and Equipment',
     description: 'Mobile IV pole with a stable base, multiple hooks, and an integrated stainless steel utility basin.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Infusion stand with basin.PNG'
   },
   {
     id: 'g26',
     name: 'DELIVERY BED (TYPE B WITH 4 LEGS)',
     category: 'General Medical Machines and Equipment',
     description: 'Sturdy four-leg obstetric labor bed with adjustable sections for maternal comfort and safety.',
-    imageUrl: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Delivery bed type B(with 4 legs).PNG'
   },
   {
     id: 'g27',
     name: 'DELIVERY BED (TYPE C WITH 8 LEGS)',
     category: 'General Medical Machines and Equipment',
     description: 'Reinforced eight-leg delivery table providing maximum stability during obstetric procedures.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Delivery bed (type C with 8 legs).PNG'
   },
   {
     id: 'g28',
     name: 'GYNECOLOGICAL EXAMINATION BED',
     category: 'General Medical Machines and Equipment',
     description: 'Specialized clinical couch with adjustable lithotomy positions for OB/GYN assessments.',
-    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffce47267a5?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Gynaecological examination bed.PNG'
   },
   {
     id: 'g29',
     name: '40-LITRE OXYGEN CYLINDER',
     category: 'General Medical Machines and Equipment',
     description: 'High-capacity industrial-grade medical oxygen tank for long-term respiratory therapy.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/40L oxygen cylinder.PNG'
   },
   {
     id: 'g30',
     name: 'COMPMIST COMPRESSOR NEBULIZER',
     category: 'General Medical Machines and Equipment',
     description: 'Advanced aerosol delivery system for efficient treatment of asthma and other respiratory conditions.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Compmist compressor nebilizer.PNG'
   },
   {
     id: 'g31',
     name: 'VEIN FINDER (MULTI PURPOSE)',
     category: 'General Medical Machines and Equipment',
     description: 'Innovative optical visualization device used to facilitate accurate peripheral vein location.',
-    imageUrl: 'https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Vein finder(multipurpose).PNG'
   },
   {
     id: 'g32',
     name: 'SUTURING KITS',
     category: 'General Medical Machines and Equipment',
     description: 'Comprehensive surgical sets containing high-quality instruments for wound closure procedures.',
-    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/General machines and equipment/Suturing kits.PNG'
   },
   // Medical Consumables
   {
@@ -410,14 +404,14 @@ export const PRODUCTS: Product[] = [
     name: 'AUTOCLAVE STERILIZATION TAPE',
     category: 'Medical Consumables',
     description: 'High-performance indicator tape used to confirm successful steam sterilization processes in clinical settings.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Autoclave sterilization tape.PNG'
   },
   {
     id: 'mc2',
     name: 'BLOOD BAG (SINGLE)',
     category: 'Medical Consumables',
     description: 'Sterile single-chamber blood collection system with integrated anticoagulant for safe storage.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Blood bag.jpg'
   },
   {
     id: 'mc3',
@@ -431,112 +425,112 @@ export const PRODUCTS: Product[] = [
     name: 'CANNULA (ASH, BLUE, PINK, GREEN, YELLOW)',
     category: 'Medical Consumables',
     description: 'Full range of color-coded intravenous cannulas for accurate gauge selection and optimal patient flow.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Cannula.jpg'
   },
   {
     id: 'mc5',
     name: 'UMBILICAL CORD CLAMP',
     category: 'Medical Consumables',
     description: 'Safe and secure disposable clamps for neonatal cord management, featuring an anti-slip grip.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/umbilical cord clamp.PNG'
   },
   {
     id: 'mc6',
     name: 'ABSORBENT COTTON WOOL (100 YARDS)',
     category: 'Medical Consumables',
     description: 'Highly absorbent medical-grade cotton wool for clinical wound care and surface cleaning.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Absorbent coton wool.PNG'
   },
   {
     id: 'mc7',
     name: 'DISPOSABLE APRON',
     category: 'Medical Consumables',
     description: 'Lightweight protective barriers designed to prevent cross-contamination in fluid-intense procedures.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Disposable apron.PNG'
   },
   {
     id: 'mc8',
     name: 'DISPOSABLE NEEDLES (21G, 22G, 23G, 24G)',
     category: 'Medical Consumables',
     description: 'Precision-ground sterile needles for intramuscular and subcutaneous injections across multiple gauges.',
-    imageUrl: 'https://images.unsplash.com/photo-1583912267550-d44d7a12982c?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Disposable needle.PNG'
   },
   {
     id: 'mc9',
     name: 'DISPOSABLE SHOE COVER',
     category: 'Medical Consumables',
     description: 'Anti-skid protective footwear covers used to maintain sterile environments in operating theaters.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Disposable shoe cover.PNG'
   },
   {
     id: 'mc10',
     name: 'DISPOSABLE VAGINAL SPECULUM (S, M, L)',
     category: 'Medical Consumables',
     description: 'Ergonomically designed disposable speculums available in multiple sizes for comfortable gynecological exams.',
-    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffce47267a5?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Disposable vaginal speculum.PNG'
   },
   {
     id: 'mc11',
     name: 'DOXIFLOW',
     category: 'Medical Consumables',
     description: 'Advanced infusion control device for precise regulation of fluid delivery and medication dosing.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Doxiflow.PNG'
   },
   {
     id: 'mc12',
     name: 'ECG PAPER (CHANNEL 12)',
     category: 'Medical Consumables',
     description: 'High-quality thermal recording paper specifically calibrated for 12-channel diagnostic ECG machines.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/ECG paper.PNG'
   },
   {
     id: 'mc13',
     name: 'ECG PAPER (CHANNEL 6)',
     category: 'Medical Consumables',
     description: 'Specialized thermal print rolls designed for high-resolution 6-channel cardiac monitoring reports.',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/ECG paper.PNG'
   },
   {
     id: 'mc14',
     name: 'ELASTIC CREPE BANDAGE (SIZE 4 INCHES)',
     category: 'Medical Consumables',
     description: 'Strong, breathable support bandage providing consistent pressure for orthopedic care and sprain management.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Elastic crepe bandage.PNG'
   },
   {
     id: 'mc15',
     name: 'ELASTIC CREPE BANDAGE (SIZE 6 INCHES)',
     category: 'Medical Consumables',
     description: 'Wide support bandage ideal for larger limb stabilization and sustained compressive therapy.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Elastic crepe bandage.PNG'
   },
   {
     id: 'mc16',
     name: 'GAUZE ROLL (100 YARDS)',
     category: 'Medical Consumables',
     description: 'Pure cotton gauze roll for extensive surgical dressing and primary wound care applications.',
-    imageUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Gauze roll (2).PNG'
   },
   {
     id: 'mc17',
     name: 'LATEX FOLEY',
     category: 'Medical Consumables',
     description: 'Indwelling urinary catheters with hydrophilic coating for smooth insertion and patient comfort.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Latex foley.PNG'
   },
   {
     id: 'mc18',
     name: 'NON-REBREATHER MASK (S, M, L)',
     category: 'Medical Consumables',
     description: 'High-concentration oxygen delivery masks featuring reservoir bags for efficient respiratory support.',
-    imageUrl: 'https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Non-rebreather mask.PNG'
   },
   {
     id: 'mc19',
     name: 'MICROSCOPE COVER GLASS',
     category: 'Medical Consumables',
     description: 'High-transparency laboratory grade cover slips for secure slide preparation and clinical diagnostics.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Microscope cover glass.PNG'
   },
   // Others Category
   {

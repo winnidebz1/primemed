@@ -49,18 +49,30 @@ const Hero: React.FC = () => {
 
           <div className="mt-16 flex items-center gap-8">
             <div className="flex -space-x-3">
-              {[1, 2, 3, 4].map(i => (
-                <img
-                  key={i}
-                  src={`https://picsum.photos/seed/${i + 10}/100`}
-                  className="w-12 h-12 rounded-full border-2 border-white shadow-sm"
-                  alt="Doctor"
-                />
-              ))}
+              <img
+                src="/images/doctors/doctor1.jpg"
+                className="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover"
+                alt="Doctor"
+              />
+              <img
+                src="/images/doctors/doctor2.jpg"
+                className="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover"
+                alt="Doctor"
+              />
+              <img
+                src="/images/doctors/doctor3.jpg"
+                className="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover"
+                alt="Doctor"
+              />
+              <img
+                src="/images/doctors/doctor4.jpg"
+                className="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover"
+                alt="Doctor"
+              />
             </div>
-            <div className="text-slate-700">
+            <div className="text-white">
               <p className="font-bold text-lg">Verified Experts</p>
-              <p className="text-sm opacity-80">Certified Professionals</p>
+              <p className="text-sm opacity-90">Certified Professionals</p>
             </div>
           </div>
         </div>

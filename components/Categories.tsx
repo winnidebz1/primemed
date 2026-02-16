@@ -72,28 +72,28 @@ const Categories: React.FC<CategoriesProps> = ({ onCategorySelect }) => {
         <div className="w-20 h-1 bg-brand-blue mx-auto rounded-full"></div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {CATEGORIES.map((cat, idx) => (
-          <div 
+          <div
             key={idx}
             onClick={() => onCategorySelect?.('products', cat.name)}
-            className="group cursor-pointer bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:border-brand-blue hover:shadow-2xl hover:shadow-brand-blue/5 transition-all duration-500 text-center flex flex-col items-center relative overflow-hidden"
+            className="group cursor-pointer bg-white p-6 lg:p-10 rounded-3xl shadow-sm border border-gray-100 hover:border-brand-blue hover:shadow-2xl hover:shadow-brand-blue/5 transition-all duration-500 text-center flex flex-col items-center relative overflow-hidden"
           >
             <div className="absolute -top-10 -right-10 w-32 h-32 bg-brand-lightBlue rounded-full group-hover:scale-150 transition-transform duration-700 opacity-50"></div>
-            
-            <div className="w-20 h-20 bg-brand-lightBlue rounded-[2rem] flex items-center justify-center text-brand-blue mb-8 group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-sm relative z-10">
+
+            <div className="w-16 h-16 lg:w-20 lg:h-20 bg-brand-lightBlue rounded-[2rem] flex items-center justify-center text-brand-blue mb-6 lg:mb-8 group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-sm relative z-10">
               {getCategoryIcon(cat.name)}
             </div>
-            
-            <h3 className="font-bold text-slate-800 text-xl group-hover:text-brand-blue transition-colors mb-4 relative z-10">
+
+            <h3 className="font-bold text-slate-800 text-base lg:text-xl group-hover:text-brand-blue transition-colors mb-3 lg:mb-4 relative z-10">
               {cat.name}
             </h3>
-            
-            <p className="text-slate-500 mb-8 leading-relaxed relative z-10">
+
+            <p className="text-slate-500 text-sm lg:text-base mb-6 lg:mb-8 leading-relaxed relative z-10 hidden lg:block">
               Explore professional-grade equipment and full setups for {cat.name.toLowerCase()}.
             </p>
 
-            <button className="flex items-center gap-2 text-brand-blue font-bold group-hover:gap-3 group-hover:text-brand-red transition-all relative z-10">
+            <button className="flex items-center gap-2 text-brand-blue font-bold group-hover:gap-3 group-hover:text-brand-red transition-all relative z-10 text-sm lg:text-base">
               View Products
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

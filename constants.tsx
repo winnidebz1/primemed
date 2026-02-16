@@ -162,14 +162,14 @@ export const PRODUCTS: Product[] = [
     name: 'MINDRAY DP-10 PORTABLE SCAN MACHINE',
     category: 'Diagnostic Setups',
     description: 'High-performance black-and-white portable ultrasound system designed for mobility and clinical reliability.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Diagnostics setups/Mindray DP-10 portable scan machine.jpeg'
   },
   {
     id: 'd2',
     name: '4D COLOR DOPPLER ULTRASOUND MACHINE WITH 5 PROBES',
     category: 'Diagnostic Setups',
     description: 'Premium real-time 4D color doppler imaging system equipped with five high-precision probes for comprehensive clinical diagnostics.',
-    imageUrl: 'https://images.unsplash.com/photo-1579152276506-0414b6205edb?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Diagnostics setups/4D color doppler ultrasound machine with 5 probes.jpeg'
   },
   // Dental Setups
   {

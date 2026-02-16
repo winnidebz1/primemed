@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2000&auto=format&fit=crop"
+          src="/images/Hero.jpeg"
           alt="African Medical Professionals in Modern Hospital"
           className="w-full h-full object-cover"
         />

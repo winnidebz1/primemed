@@ -1,7 +1,7 @@
 
 import { Product, Testimonial } from './types';
 
-export const WHATSAPP_NUMBER = "0505648365"; 
+export const WHATSAPP_NUMBER = "0505648365";
 
 export const CATEGORIES = [
   { name: 'Theatre Setups', icon: 'operating-table' },
@@ -567,13 +567,7 @@ export const PRODUCTS: Product[] = [
     description: 'Industry-standard diagnostic stethoscope featuring high acoustic sensitivity and dual-sided chestpiece.',
     imageUrl: '/images/products/others/littman-classic-3.jpg'
   },
-  {
-    id: 'o5',
-    name: 'LITTMAN STETHOSCOPE CLASSIC IV',
-    category: 'Others',
-    description: 'Next-generation clinical stethoscope with enhanced acoustics and robust design for professional use.',
-    imageUrl: '/images/products/others/littman-classic-4.jpg'
-  },
+
   {
     id: 'o6',
     name: 'RETRACTABLE TAPE MEASURE',
@@ -702,10 +696,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'o24',
-    name: 'SLEEVES HOLDERS',
+    name: 'LEATHER STETHOSCOPE HOLDER',
     category: 'Others',
-    description: 'Practical medical tool holders for organized access to equipment during hospital rounds.',
-    imageUrl: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800'
+    description: 'Premium leather holder for carrying your stethoscope comfortably and securely.',
+    imageUrl: '/images/products/others/leather stethoscope holder.jpeg'
   },
   {
     id: 'o25',
@@ -719,28 +713,28 @@ export const PRODUCTS: Product[] = [
     name: 'BAJA\'S 1 AND 2',
     category: 'Others',
     description: 'Essential medical textbook series covering core principles of clinical practice.',
-    imageUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/bajas-1-and-2.jpg'
   },
   {
     id: 'o27',
     name: 'ATLAS ANATOMY',
     category: 'Others',
     description: 'Comprehensive photographic and illustrated atlas of human anatomy for medical professionals.',
-    imageUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/Atlas Anatomy.jpeg'
   },
   {
     id: 'o28',
-    name: 'NORMAN BROWSE',
+    name: "NORMAN BROWSE'S HANDBOOK",
     category: 'Others',
     description: 'The definitive guide to clinical examination and surgical signs for medical practitioners.',
-    imageUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800'
+    imageUrl: "/images/products/others/Norman Browse's handbook.jpeg"
   },
   {
     id: 'o29',
     name: 'OXFORD HANDBOOK',
     category: 'Others',
     description: 'Pocket-sized clinical guide for rapid reference in hospital and community care settings.',
-    imageUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/others/Oxford handbook.jpg'
   }
 ];
 

@@ -19,6 +19,10 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-48 pb-24 lg:pt-64 lg:pb-32">
         <div className="max-w-2xl text-slate-900">
+          <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 bg-brand-red/10 rounded-full border border-brand-red/20">
+            <span className="w-2 h-2 bg-brand-red rounded-full animate-pulse"></span>
+            <span className="text-brand-red font-bold text-sm uppercase tracking-widest">"If not Prime its a crime!"</span>
+          </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
             Reliable Medical <br />
             <span className="text-brand-blue">Equipment</span> & <span className="text-brand-red">Prime</span> <br />

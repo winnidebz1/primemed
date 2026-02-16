@@ -16,8 +16,11 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <button onClick={() => onNavigate('home')} className="flex items-center gap-3">
               <img src="/images/logo.png" alt="Prime Med Logo" className="h-16 w-auto" />
             </button>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed mb-4">
               Prime Med is your leading provider of medical equipment and professional healthcare consultation services. We bring quality care to your doorstep.
+            </p>
+            <p className="text-brand-red font-bold italic text-lg decoration-2 underline-offset-4 decoration-brand-blue/30 underline">
+              "If not Prime its a crime!"
             </p>
           </div>
 

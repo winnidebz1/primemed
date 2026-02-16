@@ -35,7 +35,10 @@ const AboutPage: React.FC = () => {
                 <p className="text-2xl font-bold mb-2 text-brand-blue">
                   <span className="text-brand-red">Quality</span> First
                 </p>
-                <p className="text-slate-500 leading-relaxed">Our commitment to medical standards is unwavering and globally recognized. <span className="italic font-semibold text-brand-blue">"If not Prime its a crime!"</span></p>
+                <p className="text-slate-500 leading-relaxed mb-6">Our commitment to medical standards is unwavering and globally recognized.</p>
+                <div className="bg-brand-blue/5 p-4 rounded-xl border-l-4 border-brand-red">
+                  <p className="italic font-bold text-brand-blue text-xl leading-none">"If not Prime its a crime!"</p>
+                </div>
               </div>
             </div>
           </div>

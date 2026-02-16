@@ -418,7 +418,7 @@ export const PRODUCTS: Product[] = [
     name: 'BLOOD LANCETS',
     category: 'Medical Consumables',
     description: 'Ultra-sharp, sterile disposal lancets designed for minimal patient discomfort during capillary sampling.',
-    imageUrl: 'https://images.unsplash.com/photo-1579152433971-9660dc48b436?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Medical consumables/Blood lancets.jpg'
   },
   {
     id: 'mc4',

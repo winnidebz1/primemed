@@ -13,9 +13,9 @@ const Consultation: React.FC = () => {
     <div className="max-w-7xl mx-auto px-4">
       <div className="bg-white rounded-3xl overflow-hidden shadow-2xl shadow-brand-blue/10 flex flex-col lg:flex-row min-h-[500px] border border-gray-100">
         <div className="lg:w-1/2 relative">
-          <img 
-            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200" 
-            alt="Doctor Consultation" 
+          <img
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+            alt="Doctor Consultation"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-brand-blue/60 backdrop-blur-[2px] flex items-center p-12">
@@ -36,9 +36,9 @@ const Consultation: React.FC = () => {
                 Click the button below to start your booking process directly via WhatsApp. Our team will assist you with scheduling and payment details instantly.
               </p>
             </div>
-            
+
             <div className="pt-4">
-              <button 
+              <button
                 onClick={handleWhatsAppBooking}
                 className="w-full py-5 bg-brand-red hover:bg-red-700 text-white font-bold rounded-2xl text-lg shadow-xl shadow-red-500/20 transition-all flex items-center justify-center gap-3 transform hover:-translate-y-1"
               >
@@ -48,9 +48,9 @@ const Consultation: React.FC = () => {
                 Book a consultation
               </button>
             </div>
-            
+
             <p className="text-xs text-slate-400 uppercase tracking-widest font-bold">
-              Available Monday - Friday, 9AM - 5PM
+              Available 24/7
             </p>
           </div>
         </div>

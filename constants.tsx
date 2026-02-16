@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
     name: 'UV LAMP',
     category: 'Theatre Setups',
     description: 'Ultraviolet sterilization lamp designed for operating room disinfection and air purification.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Theatre seups/UV lamp.jpeg'
   },
   {
     id: 't10',

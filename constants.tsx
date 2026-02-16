@@ -1,7 +1,8 @@
 
 import { Product, Testimonial } from './types';
 
-export const WHATSAPP_NUMBER = "0505648365";
+export const WHATSAPP_NUMBER = "233505648365";
+export const WHATSAPP_NUMBER_DISPLAY = "+233 50 564 8365";
 
 export const CATEGORIES = [
   { name: 'Theatre Setups', icon: 'operating-table', bannerImage: '/images/categories/theatre-setup-banner.jpg' },

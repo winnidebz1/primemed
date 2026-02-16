@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <img
           src="/images/Hero.jpeg"
           alt="African Medical Professionals in Modern Hospital"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[center_20%]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent/10"></div>
       </div>
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       <div className="absolute top-20 right-[-10%] w-[500px] h-[500px] bg-brand-red/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-[-10%] right-20 w-[300px] h-[300px] bg-brand-blue/10 rounded-full blur-3xl"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24 lg:pt-40 lg:pb-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40 pb-24 lg:pt-48 lg:pb-32">
         <div className="max-w-2xl text-slate-900">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
             Reliable Medical <br />

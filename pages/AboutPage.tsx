@@ -29,13 +29,13 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="lg:w-1/2 relative">
               <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
-                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1200" alt="MedPro Mission" className="w-full h-full object-cover" />
+                <img src="/images/about/team.jpg" alt="Prime Med Team" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-10 -left-10 bg-white border border-gray-100 p-10 rounded-3xl shadow-2xl hidden md:block max-w-sm">
                 <p className="text-2xl font-bold mb-2 text-brand-blue">
                   <span className="text-brand-red">Quality</span> First
                 </p>
-                <p className="text-slate-500 leading-relaxed">Our commitment to medical standards is unwavering and globally recognized.</p>
+                <p className="text-slate-500 leading-relaxed">Our commitment to medical standards is unwavering and globally recognized. <span className="italic font-semibold text-brand-blue">"If not Prime its a crime!"</span></p>
               </div>
             </div>
           </div>

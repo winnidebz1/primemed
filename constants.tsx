@@ -4,7 +4,7 @@ import { Product, Testimonial } from './types';
 export const WHATSAPP_NUMBER = "0505648365";
 
 export const CATEGORIES = [
-  { name: 'Theatre Setups', icon: 'operating-table' },
+  { name: 'Theatre Setups', icon: 'operating-table', bannerImage: '/images/categories/theatre-setup-banner.jpg' },
   { name: 'Laboratory Setups', icon: 'test-tube' },
   { name: 'Diagnostic Setups', icon: 'stethoscope' },
   { name: 'Dental Setups', icon: 'dental-chair' },

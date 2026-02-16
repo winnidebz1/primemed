@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               Prime Med is your leading provider of medical equipment and professional healthcare consultation services. We bring quality care to your doorstep.
             </p>
             <p className="text-brand-red font-bold italic text-lg decoration-2 underline-offset-4 decoration-brand-blue/30 underline">
-              "If not Prime its a crime!"
+              If not Prime its a crime!
             </p>
           </div>
 

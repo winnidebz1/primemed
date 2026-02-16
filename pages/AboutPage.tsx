@@ -37,7 +37,7 @@ const AboutPage: React.FC = () => {
                 </p>
                 <p className="text-slate-500 leading-relaxed mb-6">Our commitment to medical standards is unwavering and globally recognized.</p>
                 <div className="bg-brand-blue/5 p-4 rounded-xl border-l-4 border-brand-red">
-                  <p className="italic font-bold text-brand-blue text-xl leading-none">"If not Prime its a crime!"</p>
+                  <p className="italic font-bold text-brand-blue text-xl leading-none">If not Prime its a crime!</p>
                 </div>
               </div>
             </div>

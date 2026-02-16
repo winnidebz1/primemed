@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <div className="mt-12 lg:mt-14 mb-8 flex items-center gap-8 bg-black/5 p-4 rounded-2xl border border-black/5 w-fit">
+          <div className="mt-8 lg:mt-10 mb-8 flex items-center gap-8 bg-black/5 p-4 rounded-2xl border border-black/5 w-fit">
             <div className="flex -space-x-3">
               <img
                 src="/images/doctors/doctor1.jpg"

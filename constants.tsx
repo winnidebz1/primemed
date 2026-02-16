@@ -91,70 +91,70 @@ export const PRODUCTS: Product[] = [
     name: 'MINDRAY BC 10 (3 PART HEMATOLOGY ANALYZER)',
     category: 'Laboratory Setups',
     description: 'Compact and powerful 3-part differential analyzer with reliable performance and user-friendly interface.',
-    imageUrl: 'https://images.unsplash.com/photo-1579152276506-0414b6205edb?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Mindray BC 10 (3 part Hematology analyzer).jpeg'
   },
   {
     id: 'l2',
     name: 'MINDRAY BC 5000 (5 PART HEMATOLOGY ANALYZER)',
     category: 'Laboratory Setups',
     description: 'Advanced 5-part hematology analyzer utilizing laser scatter and flow cytometry for high-accuracy results.',
-    imageUrl: 'https://images.unsplash.com/photo-1583912267550-d44d7a12982c?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/mindray bc 5000(5 part hematology analyzer).jpg'
   },
   {
     id: 'l3',
     name: 'FULLY AUTOMATED CHEMISTRY ANALYZER',
     category: 'Laboratory Setups',
     description: 'High-throughput system for comprehensive clinical chemistry testing with minimal manual intervention.',
-    imageUrl: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Fully automated chemistry analyzer.jpeg'
   },
   {
     id: 'l4',
     name: 'SEMI AUTOMATED CHEMISTRY ANALYZER',
     category: 'Laboratory Setups',
     description: 'Versatile analyzer designed for laboratories requiring flexibility and precision in biochemical diagnostics.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Semi automated chemical analyzer.jpeg'
   },
   {
     id: 'l5',
     name: 'OLYMPUS MICROSCOPE (CX 23 BINOCULAR)',
     category: 'Laboratory Setups',
     description: 'Ergonomic binocular microscope with world-class optics for educational and clinical laboratory use.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Olympus microscope(Cx 23 binocular).jpeg'
   },
   {
     id: 'l6',
     name: 'OLYMPUS MICROSCOPE (CX 23 TRINOCULAR)',
     category: 'Laboratory Setups',
     description: 'Professional trinocular microscope with camera port for high-quality digital imaging and documentation.',
-    imageUrl: 'https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Olympus microscope(Cx 23 trinocular).jpeg'
   },
   {
     id: 'l7',
     name: 'DIGITAL CENTRIFUGE (8 HOLES)',
     category: 'Laboratory Setups',
     description: 'High-speed 8-position digital centrifuge with precise timing and speed control for reliable sample separation.',
-    imageUrl: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Digital centrifuge.jpeg'
   },
   {
     id: 'l8',
     name: 'WATER BATH (MEDIUM, 2 HOLES)',
     category: 'Laboratory Setups',
     description: 'Stable temperature-controlled 2-hole water bath for incubation and sensitive laboratory protocols.',
-    imageUrl: 'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Water bath medium 2 holes.jpeg'
   },
   {
     id: 'l9',
     name: 'BLOOD ROLLER MIXER',
     category: 'Laboratory Setups',
     description: 'Quiet and efficient roller mixer for consistent mixing of blood samples and anticoagulants.',
-    imageUrl: 'https://images.unsplash.com/photo-1579152433971-9660dc48b436?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Blood roller mixer.jpg'
   },
   {
     id: 'l10',
     name: 'BLOOD BANK FRIDGE',
     category: 'Laboratory Setups',
     description: 'Specialized medical-grade refrigeration system for the safe storage of blood products and reagents.',
-    imageUrl: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=800'
+    imageUrl: '/images/products/Laboratory setup/Blood bank fride.jpg'
   },
   // Diagnostic Setups
   {

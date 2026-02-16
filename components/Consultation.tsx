@@ -12,16 +12,16 @@ const Consultation: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4">
       <div className="bg-white rounded-3xl overflow-hidden shadow-2xl shadow-brand-blue/10 flex flex-col lg:flex-row min-h-[500px] border border-gray-100">
-        <div className="lg:w-1/2 relative">
+        <div className="lg:w-1/2 relative min-h-[300px] sm:min-h-[400px] lg:min-h-full">
           <img
             src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
             alt="Doctor Consultation"
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-brand-blue/60 backdrop-blur-[2px] flex items-center p-12">
+          <div className="absolute inset-0 bg-brand-blue/60 backdrop-blur-[2px] flex items-center p-8 lg:p-12">
             <div className="text-white max-w-sm">
-              <h2 className="text-4xl font-semibold mb-6">General Medical Consultation</h2>
-              <p className="text-lg text-slate-100 opacity-95 mb-8 leading-relaxed">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-6">General Medical Consultation</h2>
+              <p className="text-sm md:text-base lg:text-lg text-slate-100 opacity-95 mb-0 leading-relaxed">
                 Connect with our certified Medical Officers from the comfort of your home. Secure, private, and professional advice by <strong>Prime Med</strong>.
               </p>
             </div>

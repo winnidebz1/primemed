@@ -19,9 +19,14 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-48 pb-24 lg:pt-64 lg:pb-32">
         <div className="max-w-2xl text-slate-900">
-          <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 bg-brand-red/10 rounded-full border border-brand-red/20">
-            <span className="w-2 h-2 bg-brand-red rounded-full animate-pulse"></span>
-            <span className="text-brand-red font-bold text-sm uppercase tracking-widest">If not Prime its a crime!</span>
+          <div className="mb-8 overflow-hidden bg-brand-red/10 rounded-full border border-brand-red/20 py-2 relative">
+            <div className="animate-marquee whitespace-nowrap flex items-center gap-4">
+              <span className="text-brand-red font-bold text-sm uppercase tracking-[0.2em]">If not Prime its a crime!</span>
+              <span className="w-2 h-2 bg-brand-red rounded-full"></span>
+              <span className="text-brand-red font-bold text-sm uppercase tracking-[0.2em]">If not Prime its a crime!</span>
+              <span className="w-2 h-2 bg-brand-red rounded-full"></span>
+              <span className="text-brand-red font-bold text-sm uppercase tracking-[0.2em]">If not Prime its a crime!</span>
+            </div>
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
             Reliable Medical <br />
@@ -51,7 +56,7 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <div className="mt-16 flex items-center gap-8">
+          <div className="mt-12 lg:mt-14 mb-8 flex items-center gap-8 bg-black/5 p-4 rounded-2xl border border-black/5 w-fit">
             <div className="flex -space-x-3">
               <img
                 src="/images/doctors/doctor1.jpg"
@@ -74,9 +79,9 @@ const Hero: React.FC = () => {
                 alt="Doctor"
               />
             </div>
-            <div className="text-white">
-              <p className="font-bold text-lg">Verified Experts</p>
-              <p className="text-sm opacity-90">Certified Professionals</p>
+            <div className="text-slate-800">
+              <p className="font-bold text-lg leading-none">Verified Experts</p>
+              <p className="text-sm opacity-70">Certified Professionals</p>
             </div>
           </div>
         </div>
